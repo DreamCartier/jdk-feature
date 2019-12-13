@@ -26,7 +26,7 @@ public class Jdk8Base64 {
         System.out.println(decoded);
 
         // url 编码
-        String url = "https://www.baidu.com/s?wd=jdk8";
+        String url = "https://www.baidu.com/s?wd=liu";
         String urlEncoded = Base64.getUrlEncoder().encodeToString(url.getBytes(StandardCharsets.UTF_8));
         System.out.println(urlEncoded);
         String urldecoded = new String(Base64.getUrlDecoder().decode(urlEncoded), StandardCharsets.UTF_8);
