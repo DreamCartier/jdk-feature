@@ -16,7 +16,7 @@ public class Jdk8Base64 {
 
     @Test
     public void base64Test() {
-        String text = "qweqweqwe";
+        String text = "7812300";
         // 编码
         String encoded = Base64.getEncoder().encodeToString(text.getBytes(StandardCharsets.UTF_8));
         System.out.println(encoded);
